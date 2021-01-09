@@ -1,0 +1,42 @@
+﻿
+
+@model List<ProdutoViewModel>
+
+@{
+	ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+	<h1 class="display-4">Bem-Vindo à eLoja</h1>
+</div>
+
+<br />
+
+<div class="text-left">
+
+	@foreach (var produto in Model)
+	{
+		<form asp-action="Pedido" asp-controller="Home">
+			@Html.AntiForgeryToken()
+			<div class="row border align-items-center">
+				<div class="col">
+					<img src="@produto.Image" class="img-thumbnail border-0" />
+					<input type="hidden" asp-for="@produto.Id" />
+				</div>
+				<div class="col">
+					<input type="text" asp-for="@produto.Nome" class="form-control" readonly="readonly" />
+				</div>
+				<div class="col">
+					<input type="text" asp-for="@produto.Valor" class="form-control" readonly="readonly" />
+				</div>
+				<div class="col">
+					<input type="number" class="form-control" asp-for="@produto.Quantidade" min="1" />
+				</div>
+				<div class="col">
+					<input type="submit" value="Comprar" class="btn btn-primary" />
+				</div>
+			</div>
+			<br />
+		</form>
+	}
+</div>

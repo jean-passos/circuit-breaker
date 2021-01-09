@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1321
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eLoja.UI", "eLoja.UI\eLoja.UI.csproj", "{6AE7461A-134B-4237-9518-992856A72E75}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eLoja.CircuitBreaker", "eLoja.CircuitBreaker\eLoja.CircuitBreaker.csproj", "{FA4D84A5-89D4-41DA-B8E0-7EB78DE35E11}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6AE7461A-134B-4237-9518-992856A72E75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AE7461A-134B-4237-9518-992856A72E75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AE7461A-134B-4237-9518-992856A72E75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AE7461A-134B-4237-9518-992856A72E75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA4D84A5-89D4-41DA-B8E0-7EB78DE35E11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA4D84A5-89D4-41DA-B8E0-7EB78DE35E11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA4D84A5-89D4-41DA-B8E0-7EB78DE35E11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA4D84A5-89D4-41DA-B8E0-7EB78DE35E11}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3F31A0B9-CD39-4530-8F6C-C076157C220B}
+	EndGlobalSection
+EndGlobal
